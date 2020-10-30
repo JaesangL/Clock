@@ -22,7 +22,7 @@ function askForName(){
 }
 
 function paintGreeting(text) {
-    greeting.classList.remove(SHOWING_CN);
+    form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
     greeting.innerText = `Hello ${text}`;
 }

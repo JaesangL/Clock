@@ -11,4 +11,4 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 
 ## Try it out
 
-[https://serranoarevalo.github.io/momonton/](https://serranoarevalo.github.io/momonton/)
+[https://jaesangl.github.io/clock/](https://jaesangl.github.io/clock/)

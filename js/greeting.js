@@ -5,6 +5,12 @@ const form = document.querySelector(".js-form"),
 const USER_LS = "currentUser",
     SHOWING_CN = "showing";
 
+function removeName(event){
+    greeting.classList.remove(SHOWING_CN);
+    form.classList.add(SHOWING_CN);
+    localStorage.removeItem(USER_LS);
+}
+
 function saveName(text){
     localStorage.setItem(USER_LS, text);
 }
@@ -34,6 +40,10 @@ function loadName() {
         askForName();
     } else {
         paintGreeting(currentUser);
+    }
+
+    if(currentUser !== null){
+        greeting.addEventListener("click", removeName);
     }
 }
 

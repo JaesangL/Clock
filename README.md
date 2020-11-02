@@ -7,6 +7,8 @@ A clone of the productivity chrome app [Momentum](https://chrome.google.com/webs
 - [x] Clock
 - [x] To Do List
 - [x] Weather
+- [x] Random Photo
+- [x] Offline Support
 
 
 ## Try it out
